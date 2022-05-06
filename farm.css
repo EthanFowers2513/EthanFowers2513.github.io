@@ -1,0 +1,179 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+}
+
+main {
+	overflow: auto;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+header {
+	Color: #000000;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "Times New Roman", serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+header a:hover {
+	color: #3145ff;
+}
+
+nav {
+	color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	width: 160px;
+	float: left;
+}
+
+nav a:hover {
+	color: #3145ff;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #000000;
+	padding-bottom: 1em;
+}
+
+dt {
+	color: #FFFFFF;
+}
+
+#wheat {
+	height: 300px;
+	Background-image: url(wheat.jfif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#sunflower {
+	height: 250px;
+	Background-image: url(sunflower.jfif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 50%;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 75%;
+	text-align: center;
+	font-style: italic;
+}
+
+title {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "Times New Roman", serif;
+}
+
+#wrapper {
+	background-image: linear-gradient(to top, #4A3728, #DEB887);
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+form {
+	background-color: #808080;
+	padding-right: 2em;
+}
+
+Label {
+	float: left;
+	display: block;
+	padding-right: 2em;
+	text-align: left;
+	width: 180px;
+}
+
+input,
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 180px;
+}
+
+table {
+	border: 2px solid #3399CC;
+	border-collapse: collapse;
+	background-color: #808080;
+}
+
+th,
+td {
+	padding: 0.5em;
+	border: 2px solid #FFFFFF;
+}
+
+td {
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#special {
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
